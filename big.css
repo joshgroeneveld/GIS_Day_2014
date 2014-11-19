@@ -50,3 +50,26 @@ div.center {
 div.imageText {
   text-shadow:0px 0px 5px rgba(0,0,0,0.2);
 }
+
+div.blink{
+    -webkit-animation: blink 300ms infinite alternate;
+    -moz-animation: blink 300ms infinite alternate;
+    -o-animation: blink 300ms infinite alternate;
+    animation: blink 300ms infinite alternate;
+}
+@-webkit-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@-o-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@-moz-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+};
